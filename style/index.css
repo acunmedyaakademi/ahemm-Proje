@@ -81,3 +81,179 @@ a {
     text-decoration: inherit;
     color: inherit;
 }
+
+.container {
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+}
+
+.pLarge {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.01px;
+}
+
+.pSmall {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+}
+
+/*-------------------------------------------------------------*/
+/*-------------------- Global Settings End --------------------*/
+/*-------------------------------------------------------------*/
+
+/* ------------- */
+/* Mobil version */
+/* ------------- */
+
+
+
+
+@media screen and (max-width:1024px) and (min-width: 768px) {
+
+    /* ------------- */
+    /* Tablet version */
+    /* ------------- */
+    .container {
+        max-width: 704px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: -0.01em;
+    }
+
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        margin-bottom: 24px;
+    }
+
+    h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+    }
+
+
+    /*-------------------------------------------------------------*/
+    /*-------------------- Global Settings End --------------------*/
+    /*-------------------------------------------------------------*/
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* ------------- */
+    /* Masaüstü version*/
+    /* ------------- */
+    .container {
+        max-width: 1215px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 60px;
+        letter-spacing: -0.01em;
+    }
+
+    h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+    }
+
+    h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+        margin-bottom: 16px;
+    }
+
+    h5 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.01em;
+    }
+
+    /*-------------------------------------------------------------*/
+    /*-------------------- Global Settings End --------------------*/
+    /*-------------------------------------------------------------*/
+}
