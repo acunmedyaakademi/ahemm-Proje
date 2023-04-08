@@ -141,3 +141,37 @@ nav ul li:hover {
 #check:checked~ul {
     left: 0;
 }
+
+/*-------------------- Portfolio Detail Header --------------------*/
+
+
+.portfolioDetailHeader {
+    padding: 47px 0 48px 0;
+}
+
+.portfolioDetailHeaderContainer>a {
+    color: var(--black-50);
+    display: flex;
+    gap: 10px;
+    margin-bottom: 21px;
+}
+
+.portfolioDetailHeaderContainer h1 {
+    margin-bottom: 21px;
+}
+
+.portfolioDetailHeaderContent p {
+    margin-bottom: 32px;
+}
+
+.portfolioDetailHeaderContent a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--blue);
+    border: 1px solid var(--blue-30);
+    width: 170px;
+    height: 48px;
+}
