@@ -141,3 +141,35 @@ nav ul li:hover {
 #check:checked~ul {
     left: 0;
 }
+
+/*-------------------- Portfolio Detail Image --------------------*/
+
+.portfolioDetailImage {
+    padding: 0 0 48px 0;
+}
+
+.portfolioDetailImage img {
+    border-radius: 5px;
+}
+
+.portfolioDetailImage {
+    overflow-x: hidden;
+
+}
+
+.portfolioDetailImageContainer>img {
+    margin-bottom: 11px;
+}
+
+.portfolioDetailImageContainer>div {
+    gap: 11px;
+}
+
+.portfolioDetailImageContainer>div img {
+    height: 70px;
+    width: 137px;
+}
+
+.portfolioDetailImageContainer>div img:not(:first-child) {
+    opacity: .5;
+}
