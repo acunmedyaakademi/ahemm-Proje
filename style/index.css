@@ -168,7 +168,38 @@ h5 {
     gap: 32px;
 }
 
+/*-------------------- Navbar --------------------*/
 
+nav ul {
+    display: none;
+}
+
+.navbarContainer {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F8F9FB;
+}
+
+
+.checkbtn {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.navbarButtons {
+    display: none;
+}
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -292,4 +323,51 @@ h5 {
         
     }
     
-   }
+
+
+    /*-------------------- Navbar --------------------*/
+
+    .hamburger {
+        display: none;
+    }
+
+    .navbarContainer {
+        gap: 69px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .navbarContainer ul {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        gap: 32px;
+    }
+
+
+    .navbarContainer ul a:nth-child(3) li {
+        display: flex;
+        gap: 12px;
+    }
+
+    .navbarButtons {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .navbarButtons a:first-child {
+        color: #437EF7;
+    }
+
+    .navbarButtons a:last-child {
+        background-color: #437EF7;
+        padding: 12px 18px;
+        border-radius: 6px;
+        color: #FFFFFF;
+    }
+
+
+}
