@@ -145,8 +145,21 @@ h5 {
     line-height: 24px;
     letter-spacing: -0.01px;
 }
-.pSmall .gray{
+.gray{
     color: #5F6D7E;
+}
+.hero{
+    background: #F8F9FB;
+    ;
+}
+.hero h1{
+    margin-bottom: 24px;
+}
+.heroImage{
+    margin-bottom: 34px;
+}
+.heroLists{
+    margin-bottom: 32px;
 }
 .heroList{
     display: flex;
@@ -226,7 +239,9 @@ h5 {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-
+    .heroImage{
+        margin: 0 185px;
+    }
 
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
