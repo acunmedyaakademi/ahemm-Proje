@@ -188,6 +188,64 @@ nav ul {
     display: none;
 }
 
+/*-------------------- Footer --------------------*/
+
+footer {
+    background-color: #151B28;
+    color: #A5ACBA;
+}
+
+.footerFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2E3545;
+}
+
+.footerFirst>a {
+    align-self: center;
+}
+
+.footerMenu ul {
+    display: flex;
+    gap: 41px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerSecond {
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footerSecondLeft {
+    order: 2;
+}
+
+.footerSecondRight {
+    order: 1;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.footerSecondRight p {
+    font-weight: 500;
+}
+
+
+
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
     /* ------------- */
@@ -238,6 +296,33 @@ nav ul {
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
 
+
+    /*-------------------- Footer Tablet --------------------*/
+    .footerContainer {
+        padding: 40px 0;
+    }
+
+    .footerFirst {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footerMenu ul {
+        gap: 24px;
+    }
+
+    .footerIcons {
+        gap: 24px;
+    }
+
+    .footerSecond {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footerSecondLeft {
+        order: 1;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -289,7 +374,7 @@ nav ul {
     /*-------------------------------------------------------------*/
 
 
-    /*-------------------- Navbar --------------------*/
+    /*-------------------- Navbar Masaüstü --------------------*/
 
     .hamburger {
         display: none;
@@ -333,5 +418,36 @@ nav ul {
         color: #FFFFFF;
     }
 
+    /*-------------------- Footer Masaüstü --------------------*/
+    .footerContainer {
+        padding: 40px 0;
+    }
 
+    .footerFirst {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+
+    .footerMenu ul {
+        gap: 48px;
+    }
+
+    .footerIcons {
+        gap: 24px;
+    }
+
+    .footerSecond {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 32px;
+    }
+
+    .footerSecondLeft {
+        order: 1;
+    }
+
+    .footerSecondRight {
+        gap: 48px;
+    }
 }
