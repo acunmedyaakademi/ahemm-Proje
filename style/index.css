@@ -153,7 +153,20 @@ h5 {
 /* ------------- */
 /* Mobil version */
 /* ------------- */
+.detailContainer{
+    padding: 32px 0;
+}
 
+
+.detailCards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.detailCard {
+    display: flex;
+    gap: 32px;
+}
 
 
 
@@ -206,6 +219,16 @@ h5 {
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
+    .detailCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .detailCard {
+     width: 336px;  
+
+    } .detailContainer {
+        padding: 40px 0;
+    }
 
 }
 
@@ -256,4 +279,17 @@ h5 {
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
-}
+    .detailCards {
+        flex-direction: row;
+        gap: 88px  ;
+
+      
+    }
+    .detailCard {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        width: 336px; 
+        
+    }
+    
+   }
