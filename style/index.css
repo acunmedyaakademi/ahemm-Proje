@@ -255,7 +255,7 @@ nav ul {
 
 nav {
     border-bottom: 1px solid #F8F9FB;
-    background-color:#EAEBF0;
+    background-color: #EAEBF0;
 }
 
 .navbarContainer {
@@ -430,7 +430,6 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #F8F9FB;
 }
 
 
