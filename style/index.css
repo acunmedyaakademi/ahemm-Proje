@@ -193,6 +193,7 @@ nav ul {
 footer {
     background-color: #151B28;
     color: #A5ACBA;
+    padding: 32px 0;
 }
 
 .footerFirst {
@@ -219,7 +220,7 @@ footer {
 
 .footerIcons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footerSecond {
@@ -231,6 +232,7 @@ footer {
 
 .footerSecondLeft {
     order: 2;
+    text-align: center;
 }
 
 .footerSecondRight {
