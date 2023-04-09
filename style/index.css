@@ -323,12 +323,16 @@ nav ul {
     .heroInput{
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+        margin-bottom: 48px;
     }
     .heroButton{
         padding: 12px 18px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         margin-left: -4px;
+    }
+    .heroContainer .pSmall{
+        display: none;
     }
 
     /*-------------------------------------------------------------*/
@@ -385,6 +389,7 @@ nav ul {
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
+        padding-bottom: 44px;
     }
    .heroGridItem2{
         grid-area: 1/1/2/2;
