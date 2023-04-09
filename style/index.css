@@ -171,7 +171,18 @@ h5 {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
     margin-bottom: 16px;
+    padding: 12px 16px;
 }
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #919BA7;
+    
+
+  }
 .heroButton{
     background: #437EF7;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
@@ -306,6 +317,19 @@ nav ul {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
+    .heroImage{
+        margin: 0 auto;
+    }
+    .heroInput{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .heroButton{
+        padding: 12px 18px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-left: -4px;
+    }
 
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
@@ -356,7 +380,28 @@ nav ul {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-
+   .heroGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+   .heroGridItem2{
+        grid-area: 1/1/2/2;
+   }
+   .heroInput{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+   }
+    .heroButton{
+        padding: 12px 18px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-left: -4px;
+    }
+    .heroContainer .pSmall{
+        display: none;
+    }   
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
