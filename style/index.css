@@ -242,6 +242,9 @@ h5 {
 /* ------------- */
 /* Mobil version */
 /* ------------- */
+.detailContainer {
+    padding: 32px 0;
+}
 
 
 /*-------------------- Navbar --------------------*/
@@ -399,6 +402,49 @@ footer {
     color: #272D37;
 }
 
+.detailCards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.detailCard {
+    display: flex;
+    gap: 32px;
+}
+
+/*-------------------- Navbar --------------------*/
+
+nav ul {
+    display: none;
+}
+
+.navbarContainer {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F8F9FB;
+}
+
+
+.checkbtn {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.navbarButtons {
+    display: none;
+}
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -448,6 +494,19 @@ footer {
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
+    .detailCards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .detailCard {
+        width: 336px;
+
+    }
+
+    .detailContainer {
+        padding: 40px 0;
+    }
 
     /*-------------------- Subscribe --------------------*/
 
@@ -555,12 +614,29 @@ footer {
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
 
+    /*-------------------- Detail Masaüstü --------------------*/
+    .detailCards {
+        flex-direction: row;
+        gap: 88px;
+
+
+    }
+
+    .detailCard {
+        padding-top: 64px;
+        padding-bottom: 64px;
+        width: 336px;
+
+    }
+
+    .detail .hamburger {
+        display: none;
+    }
+
+
 
     /*-------------------- Navbar Masaüstü --------------------*/
 
-    .hamburger {
-        display: none;
-    }
 
     .navbarContainer {
         gap: 69px;
