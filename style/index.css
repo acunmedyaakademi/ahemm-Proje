@@ -253,12 +253,16 @@ nav ul {
     display: none;
 }
 
+nav {
+    border-bottom: 1px solid #F8F9FB;
+    background-color:#EAEBF0;
+}
+
 .navbarContainer {
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #F8F9FB;
 }
 
 
