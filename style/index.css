@@ -147,32 +147,39 @@ h5 {
     letter-spacing: -0.01px;
     color: #5F6D7E;
 }
-.hero{
+
+.hero {
     background: #F8F9FB;
 }
-.hero h1{
+
+.hero h1 {
     margin-bottom: 24px;
 }
-.heroImage{
+
+.heroImage {
     padding-top: 32px;
     margin-bottom: 34px;
 }
-.heroLists{
+
+.heroLists {
     margin-bottom: 32px;
 }
-.heroList{
+
+.heroList {
     display: flex;
     gap: 12px;
     margin-bottom: 10px;
 }
-.heroInput{
+
+.heroInput {
     width: 343px;
     border: 1px solid #DAE0E6;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
     margin-bottom: 16px;
 }
-.heroButton{
+
+.heroButton {
     background: #437EF7;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
@@ -180,30 +187,37 @@ h5 {
     border: 0;
     margin-bottom: 8px;
 }
-.heroButton a{
+
+.heroButton a {
     color: #FFF;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
 }
-.heroContainer .pSmall{
+
+.heroContainer .pSmall {
     padding-bottom: 40px;
 }
-.featureContainer .pSmall{
+
+.featureContainer .pSmall {
     margin-bottom: 32px;
 }
-.featureLists{
+
+.featureLists {
     margin-bottom: 32px;
 }
-.featureList{
+
+.featureList {
     display: flex;
     gap: 12px;
     margin-bottom: 10px;
 }
-.featureImages{
+
+.featureImages {
     margin-bottom: 32px;
 }
-.featureButton{
+
+.featureButton {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -213,7 +227,8 @@ h5 {
     border: 0;
     padding: 12px 32px;
 }
-.featureButton a{
+
+.featureButton a {
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
@@ -318,6 +333,71 @@ footer {
     font-weight: 500;
 }
 
+/*-------------------- Subscribe --------------------*/
+
+.subscribe {
+    padding: 32px 0 32px 0;
+    background: #FAFBFC;
+}
+
+.subscribe h4 {
+    font-weight: 600;
+    color: #437EF7;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subscribe h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.subscribe input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0 16px;
+}
+
+.subscribe button {
+    background-color: #437EF7;
+    padding: 12px 18px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.subscribeInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 40px;
+}
+
+.subscribeInfo div {
+    display: flex;
+    gap: 12px;
+}
+
+.subscribeInfo p {
+    font-weight: 500;
+    color: #272D37;
+}
 
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
@@ -369,6 +449,31 @@ footer {
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
 
+    /*-------------------- Subscribe --------------------*/
+
+
+    .subscribeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe form {
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .subscribe input {
+        border-radius: 6px 0 0 6px;
+        width: 424px;
+    }
+
+    .subscribe button {
+        border-radius: 0 6px 6px 0;
+        width: 52px;
+    }
 
     /*-------------------- Footer Tablet --------------------*/
     .footerContainer {
@@ -396,6 +501,10 @@ footer {
     .footerSecondLeft {
         order: 1;
     }
+
+
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -489,6 +598,34 @@ footer {
         padding: 12px 18px;
         border-radius: 6px;
         color: #FFFFFF;
+    }
+
+    /*-------------------- Subscribe --------------------*/
+    .subscribeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe h2 {
+        width: clamp(0px, 100%, 752px);
+    }
+
+    .subscribe form {
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+
+    .subscribe input {
+        border-radius: 6px 0 0 6px;
+        width: 424px;
+    }
+
+    .subscribe button {
+        border-radius: 0 6px 6px 0;
+        width: 52px;
     }
 
     /*-------------------- Footer Masaüstü --------------------*/
