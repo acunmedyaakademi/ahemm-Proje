@@ -136,6 +136,7 @@ h5 {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: -0.01px;
+    color: #5F6D7E;
 }
 
 .pSmall {
@@ -144,18 +145,16 @@ h5 {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.01px;
-}
-.gray{
     color: #5F6D7E;
 }
 .hero{
     background: #F8F9FB;
-    ;
 }
 .hero h1{
     margin-bottom: 24px;
 }
 .heroImage{
+    padding-top: 32px;
     margin-bottom: 34px;
 }
 .heroLists{
@@ -164,6 +163,7 @@ h5 {
 .heroList{
     display: flex;
     gap: 12px;
+    margin-bottom: 10px;
 }
 .heroInput{
     width: 343px;
@@ -176,12 +176,48 @@ h5 {
     background: #437EF7;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
+    padding: 12px 148px;
     border: 0;
     margin-bottom: 8px;
 }
 .heroButton a{
     color: #FFF;
-    padding: 12px 148px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.heroContainer .pSmall{
+    padding-bottom: 40px;
+}
+.featureContainer .pSmall{
+    margin-bottom: 32px;
+}
+.featureLists{
+    margin-bottom: 32px;
+}
+.featureList{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.featureImages{
+    margin-bottom: 32px;
+}
+.featureButton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #437EF7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    border: 0;
+    padding: 12px 32px;
+}
+.featureButton a{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF;
 }
 
 /*-------------------------------------------------------------*/
@@ -269,9 +305,6 @@ nav ul {
         font-size: 22px;
         line-height: 30px;
         letter-spacing: -0.01em;
-    }
-    .heroImage{
-        margin: 0 185px;
     }
 
     /*-------------------------------------------------------------*/
