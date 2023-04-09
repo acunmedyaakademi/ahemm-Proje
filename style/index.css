@@ -136,6 +136,7 @@ h5 {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: -0.01px;
+    color: #5F6D7E;
 }
 
 .pSmall {
@@ -144,6 +145,7 @@ h5 {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.01px;
+    color: #5F6D7E;
 }
 .gray{
     color: #5F6D7E;
@@ -176,12 +178,38 @@ h5 {
     background: #437EF7;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
+    padding: 12px 148px;
     border: 0;
     margin-bottom: 8px;
 }
 .heroButton a{
     color: #FFF;
-    padding: 12px 148px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.featuredLists{
+    margin-bottom: 32px;
+}
+.featuredList{
+    display: flex;
+    gap: 12px;
+}
+.featuredButton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #437EF7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    border: 0;
+    padding: 12px 32px;
+}
+.featuredButton a{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF;
 }
 
 /*-------------------------------------------------------------*/
