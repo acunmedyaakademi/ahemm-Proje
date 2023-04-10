@@ -461,6 +461,10 @@ nav ul {
     display: none;
 }
 
+.partnership {
+    display:none;
+}
+
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
     /* ------------- */
@@ -593,8 +597,9 @@ nav ul {
         order: 1;
     }
 
-
-
+    .partnership {
+        display:none;
+    }
 
 }
 
@@ -790,4 +795,40 @@ nav ul {
     .footerSecondRight {
         gap: 48px;
     }
+
+     /*-------------------- Partnership Masaüstü --------------------*/
+    
+    .partnership {
+        display: inline;
+    }
+
+    .partnershipHeaderText, .partnershipLogos {
+        display: flex;
+    }
+
+     .partnershipHeaderText {
+        margin: auto;
+        gap: 16px;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 64px;
+        margin-bottom: 64px;
+     }
+
+     
+    .partnershipHeaderText h2 {
+        margin-bottom: 0;
+    }
+
+    .partnershipHeaderText {
+        width: 65%;
+    }
+
+    .partnershipLogos {
+        justify-content: center;
+        text-align: center;
+        gap: 64px;
+        margin-bottom: 64px;
+    }
+    
 }
