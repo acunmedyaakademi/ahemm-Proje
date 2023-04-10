@@ -83,7 +83,8 @@ a {
 }
 
 .container {
-    max-width: 345px;
+    max-width: 1215px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -210,7 +211,6 @@ nav {
 
 /*-------------------- Hero --------------------*/
 
-
 .hero {
     background: #F8F9FB;
 }
@@ -220,6 +220,7 @@ nav {
 }
 
 .heroImage {
+    padding-top: 32px;
     margin-bottom: 34px;
 }
 
@@ -230,6 +231,7 @@ nav {
 .heroList {
     display: flex;
     gap: 12px;
+    margin-bottom: 10px;
 }
 
 .heroInput {
@@ -238,6 +240,18 @@ nav {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
     margin-bottom: 16px;
+    padding: 12px 16px;
+}
+
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #919BA7;
+
+
 }
 
 .heroButton {
@@ -254,6 +268,10 @@ nav {
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
+}
+
+.heroContainer .pSmall {
+    padding-bottom: 40px;
 }
 
 /*-------------------- Feature --------------------*/
@@ -601,10 +619,6 @@ footer {
     /* ------------- */
     /* Tablet version */
     /* ------------- */
-    .container {
-        max-width: 704px;
-        margin: 0 auto;
-    }
 
     h1 {
         font-family: 'Inter', sans-serif;
@@ -688,6 +702,28 @@ footer {
         padding: 40px 0;
     }
 
+    /*-------------------- Hero --------------------*/
+    .heroImage {
+        margin: 0 auto;
+    }
+
+    .heroInput {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: 48px;
+    }
+
+    .heroButton {
+        padding: 12px 18px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-left: -4px;
+    }
+
+    .heroContainer .pSmall {
+        display: none;
+    }
+
     /*-------------------- Subscribe --------------------*/
 
 
@@ -766,10 +802,6 @@ footer {
     /* ------------- */
     /* Masaüstü version*/
     /* ------------- */
-    .container {
-        max-width: 1215px;
-        margin: 0 auto;
-    }
 
     h1 {
         font-family: 'Inter', sans-serif;
@@ -923,6 +955,35 @@ footer {
         padding: 12px 18px;
         border-radius: 6px;
         color: #FFFFFF;
+    }
+
+    /*-------------------- Hero --------------------*/
+    .heroGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 44px;
+    }
+
+    .heroGridItem2 {
+        grid-area: 1/1/2/2;
+    }
+
+    .heroInput {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .heroButton {
+        padding: 12px 18px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-left: -4px;
+    }
+
+    .heroContainer .pSmall {
+        display: none;
     }
 
     /*-------------------- Subscribe --------------------*/
