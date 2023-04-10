@@ -163,7 +163,7 @@ nav ul {
 
 nav {
     border-bottom: 1px solid #F8F9FB;
-    background-color:#EAEBF0;
+    background-color: #EAEBF0;
 }
 
 .navbarContainer {
@@ -300,7 +300,7 @@ nav {
     }
 
     .navbarContainer {
-        gap: 69px;
+        gap: 70px;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 15px;
