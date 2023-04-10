@@ -250,32 +250,33 @@ footer {
     background-color: #2B63D9;
 }
 
-.customersHeader {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    margin-bottom: 12px;
-    text-align: center;
-    color: white;
-    margin-bottom: 12px;
-}
-
-.customersText {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01px;
-    text-align: center;
-    color: #B1CCFB;
-    margin-bottom: 40px;
-}
-
 .customersElements {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.customersHeaderText, .customerText, .customersCommentsTop, .customersProfile, .customersCommentsBottom, .instagramLogo, .viewButton  {
+    display: flex;
+}
+.customersHeaderText {
+    flex-direction:column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.customersHeaderText h2, .customersText {
+    text-align: center;
+}
+.customersHeaderText h2, .paragraphName, .customersCommentsMiddle, .customersCommentsBottom p, .viewButton {
+    color: #FFFFFF;
+}
+
+.customersHeaderText h2 {
+    margin-bottom: 0;
+}
+
+.customersText {
+    color: #B1CCFB;
 }
 
 .customersComments {
@@ -284,17 +285,17 @@ footer {
     margin-bottom: 40px;
 }
 
-.customersCommentsArea {
+.customersCommentsBox, .customersCommentsBottom, .viewButton {
     background-color:#3971E7;
-    border-radius: 10px;
+
 }
 
-.customersCommentsAreaSub {
+.customersCommentsBox {
+    border-radius: 10px;
     padding: 16px;
 }
 
-.customersNav {
-    display: flex;
+.customersCommentsTop {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 16px;
@@ -304,64 +305,46 @@ footer {
     margin-right: 10px;
 }
 
-.instagramLogo {
-    width: 24px;
-    height: 24px;
-    display:flex;
-}
-
-.customersProfile {
-    display: flex;
+.paragraphName, .paragraphTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.01px;
 }
 
 .paragraphName {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
     font-size: 15px;
     line-height: 22px;
-    letter-spacing: -0.01px;
-    color: #FFFFFF;
 }
 
 .paragraphTitle {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: -0.01px;
     color: #B1CCFB;
 }
 
-.customersBottomText {
-    display: flex;
+.instagramLogo {
+    width: 24px;
+    height: 24px;
 }
 
-.customersMiddleText {
+.customersCommentsMiddle {
     margin-bottom: 8px;
-    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.01px;
-    color: #FFFFFF;
 }
 
-.customersBottomText  {
-    font-family: 'Inter', sans-serif;
+.customersCommentsBottom p, .viewButton {
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.customersCommentsBottom p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.01px;
-    color: #FFFFFF;
-    margin-right: 6px;
-    background-color: #3971E7;
-}
-
-.customersBottomText p {
     margin-right: 6px;
 }
 
-.customersBottomText img {
+.customersCommentsBottom img {
     width: 20px;
     height: 20px;
 }
@@ -369,16 +352,11 @@ footer {
 .viewButton {
     margin: auto;
     padding: 0;
-    background-color:#3971E7;
     width: 128px;
     height: 46px;
-    color: #FFFFFF;
     border-radius: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     border: none;
@@ -445,11 +423,7 @@ footer {
         justify-content: space-between;
     }
 
-    .footerMenu ul {
-        gap: 24px;
-    }
-
-    .footerIcons {
+    .footerMenu ul, .footerIcons {
         gap: 24px;
     }
 
@@ -464,6 +438,11 @@ footer {
 
     /*-------------------- Customers Tablet--------------------*/
 
+    .customersElements {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }   
+
     .customersComments {    
         gap: 16px;
         grid-template-columns: repeat(2, 1fr);
@@ -474,14 +453,6 @@ footer {
         line-height: 40px;
     }
 
-    .customersElements {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }   
-
-    .customersHeader {
-        margin-bottom: 16px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -612,8 +583,25 @@ footer {
 
      /*-------------------- Customers Masaüstü --------------------*/
 
-     .customersComments {    
-        gap: 16px;
-        grid-template-columns: repeat(4, 1fr);
+    .customersElements {
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
+
+    .customersComments {    
+        gap: 32px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 64px;
+    }
+
+    .customersHeaderText {
+        margin: auto;
+        width: 850px;
+        margin-bottom: 64px;
+        gap: 16px;
+    }
+    .customersText {
+        margin-bottom: 0;
+    }
+
 }
