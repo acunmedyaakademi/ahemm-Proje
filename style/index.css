@@ -190,6 +190,7 @@ h5 {
 }
 .featureContainer .pSmall{
     margin-bottom: 32px;
+    text-align: center;
 }
 .featureImage{
     margin-bottom: 32px;
@@ -372,8 +373,8 @@ nav ul {
     .featureContainer h2{
         text-align: center;
     }
-    .featureContainer p{
-        text-align: center;
+    .featureContainer .pSmall{
+        
     }
     .featureGrid{
         display: grid;
