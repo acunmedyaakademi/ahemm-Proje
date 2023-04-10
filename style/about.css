@@ -197,6 +197,70 @@ nav {
 
 
 
+/*-------------------- Footer --------------------*/
+footer {
+    font-family: 'Inter', sans-serif;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    order: 1;
+}
+
+.footerMenus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px 0;
+    order: 3;
+}
+
+.footerMenu {
+    width: 146px;
+}
+
+.footerMenu h6 {
+    color: black;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footerMenu ul {
+    color: #5F6D7E;
+}
+
+.footerMenu li {
+    margin-bottom: 12px;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-around;
+    order: 2;
+}
+
+.footerShape {
+    order: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.footerCopy {
+    order: 5;
+}
+
+.blueShape {
+    width: 48px;
+    height: 48px;
+    background-color: #f5faff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
