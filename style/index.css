@@ -147,7 +147,93 @@ h5 {
     letter-spacing: -0.01px;
     color: #5F6D7E;
 }
-
+.gray{
+    color: #5F6D7E;
+}
+.hero{
+    background: #F8F9FB;
+    ;
+}
+.hero h1{
+    margin-bottom: 24px;
+}
+.heroImage{
+    margin-bottom: 34px;
+}
+.heroLists{
+    margin-bottom: 32px;
+}
+.heroList{
+    display: flex;
+    gap: 12px;
+}
+.heroInput{
+    width: 343px;
+    border: 1px solid #DAE0E6;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+.heroButton{
+    background: #437EF7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    padding: 12px 148px;
+    border: 0;
+    margin-bottom: 8px;
+}
+.heroButton a{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.featureContainer .pSmall{
+    margin-bottom: 32px;
+    text-align: center;
+}
+.featureImage{
+    margin-bottom: 32px;
+}
+.featureTabletImage{
+    display: none;
+}
+.featureDesktopImage{
+    display: none;
+}
+.featuredGridItem2 .pSmall{
+    display: none;
+}
+.featuredGridItem .pSmall{
+    display: none;
+}
+.h3-none{
+    display: none;
+}
+.featureLists{
+    margin-bottom: 32px;
+}
+.featureList{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.featureLink{
+    display: inline-flex;
+    gap: 10px;
+    background: #437EF7;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFF;
+    padding: 16px 24px;
+    margin-bottom: 64px;
+}
 
 /*-------------------------------------------------------------*/
 /*-------------------- Global Settings End --------------------*/
@@ -629,25 +715,28 @@ footer {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-
-    .heroImage {
-        margin: 0 auto;
+    .featureContainer{
+        display: flex;
+        flex-direction: column;
     }
-
-    .heroInput {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+    .featureContainer h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.01em;
+        text-align: start;
+    }
+    .featureContainer p{
+        text-align: center;
+    }
+    .featureImage{
+        display: none;
+    }
+    .featureTabletImage{
+        display: block;
         margin-bottom: 48px;
     }
-
-    .heroButton {
-        padding: 12px 18px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-left: -4px;
-    }
-
-    .heroContainer .pSmall {
+    .featureDesktopImage{
         display: none;
     }
 
@@ -784,35 +873,51 @@ footer {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-
-    .heroGrid {
+    .featureContainer h2{
+        text-align: center;
+    }
+    .featureContainer > .pSmall{
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 64px;
+    }
+    .featureGrid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: center;
         align-items: center;
-        padding-bottom: 44px;
+        column-gap: 102px;
+        padding-bottom: 64px;
     }
-
-    .heroGridItem2 {
+    .featureGrid h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.01em;
+    }
+    .featuredGridItem2{
         grid-area: 1/1/2/2;
     }
-
-    .heroInput {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
+    .featureDesktopImage{
+        display: block;
     }
-
-    .heroButton {
-        padding: 12px 18px;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-left: -4px;
-    }
-
-    .heroContainer .pSmall {
+    .featureGridItem1 .featureImage{
         display: none;
     }
-
+    .featuredGridItem2 .pSmall{
+        display: block;
+        text-align: start;
+    }
+    .featuredGridItem .pSmall{
+        display: block;
+        text-align: start;
+    }
+    .h3-none{
+        display: block;
+    }
+    .featuredGridItem h3:first-child{
+        display: none;
+    }
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
