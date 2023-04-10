@@ -264,6 +264,10 @@ nav {
 }
 
 .heroButton a {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
     color: #FFF;
     font-weight: 600;
     font-size: 15px;
