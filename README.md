@@ -2,13 +2,33 @@
 
 ## Projeyi Yapan kişiler
 
+#### Hüseyin Cengiz
 
->Hüseyin Cengiz
+| Index.html | About.html |
+| ---------- | ---------- |
+| Hero       |            |
+| Feature    |            |
+| Blog       |            |
 
->Mert Can Uzunçavdar
+> Mert Can Uzunçavdar
 
->Elif Cansu Okuyan
+| Index.html  | About.html |
+| ----------- | ---------- |
+| Customers   | FAQ        |
+| Partnership |            |
 
->Khalilov Nuragha
+> Elif Cansu Okuyan
 
->Mert Okan
+| Index.html | About.html |
+| ---------- | ---------- |
+| Detail     |            |
+
+> Khalilov Nuragha
+
+> Mert Okan
+
+| Index.html | About.html |
+| ---------- | ---------- |
+| Navbar     | Footer     |
+| Footer     |            |
+| Subscribe  |            |
