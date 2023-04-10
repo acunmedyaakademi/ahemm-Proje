@@ -992,9 +992,7 @@ footer {
     }
 
     .partnershipLogos {
-        justify-content: center;
-        text-align: center;
-        gap: 64px;
+        justify-content: space-evenly;
         margin-bottom: 64px;
     }
 
