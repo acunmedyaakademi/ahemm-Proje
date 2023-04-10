@@ -147,93 +147,16 @@ h5 {
     letter-spacing: -0.01px;
     color: #5F6D7E;
 }
-.gray{
+
+.gray {
     color: #5F6D7E;
 }
-.hero{
-    background: #F8F9FB;
-    ;
-}
-.hero h1{
-    margin-bottom: 24px;
-}
-.heroImage{
-    margin-bottom: 34px;
-}
-.heroLists{
+
+.mb-32 {
     margin-bottom: 32px;
 }
-.heroList{
-    display: flex;
-    gap: 12px;
-}
-.heroInput{
-    width: 343px;
-    border: 1px solid #DAE0E6;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
-    border-radius: 6px;
-    margin-bottom: 16px;
-}
-.heroButton{
-    background: #437EF7;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
-    border-radius: 6px;
-    padding: 12px 148px;
-    border: 0;
-    margin-bottom: 8px;
-}
-.heroButton a{
-    color: #FFF;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 22px;
-}
-.featureContainer .pSmall{
-    margin-bottom: 32px;
-    text-align: center;
-}
-.featureImage{
-    margin-bottom: 32px;
-}
-.featureTabletImage{
-    display: none;
-}
-.featureDesktopImage{
-    display: none;
-}
-.featuredGridItem2 .pSmall{
-    display: none;
-}
-.featuredGridItem .pSmall{
-    display: none;
-}
-.h3-none{
-    display: none;
-}
-.featureLists{
-    margin-bottom: 32px;
-}
-.featureList{
-    display: flex;
-    gap: 12px;
-    margin-bottom: 10px;
-}
-.mb-32{
-    margin-bottom: 32px;
-}
-.featureLink{
-    display: inline-flex;
-    gap: 10px;
-    background: #437EF7;
-    border-radius: 6px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 22px;
-    color: #FFF;
-    padding: 16px 24px;
-    margin-bottom: 64px;
-}
+
+
 
 /*-------------------------------------------------------------*/
 /*-------------------- Global Settings End --------------------*/
@@ -287,6 +210,7 @@ nav {
 
 /*-------------------- Hero --------------------*/
 
+
 .hero {
     background: #F8F9FB;
 }
@@ -296,7 +220,6 @@ nav {
 }
 
 .heroImage {
-    padding-top: 32px;
     margin-bottom: 34px;
 }
 
@@ -307,7 +230,6 @@ nav {
 .heroList {
     display: flex;
     gap: 12px;
-    margin-bottom: 10px;
 }
 
 .heroInput {
@@ -316,18 +238,6 @@ nav {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
     margin-bottom: 16px;
-    padding: 12px 16px;
-}
-
-::placeholder {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400px;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: -0.1px;
-    color: #919BA7;
-
-
 }
 
 .heroButton {
@@ -346,12 +256,35 @@ nav {
     line-height: 22px;
 }
 
-.heroContainer .pSmall {
-    padding-bottom: 40px;
-}
+/*-------------------- Feature --------------------*/
 
 .featureContainer .pSmall {
     margin-bottom: 32px;
+    text-align: center;
+}
+
+.featureImage {
+    margin-bottom: 32px;
+}
+
+.featureTabletImage {
+    display: none;
+}
+
+.featureDesktopImage {
+    display: none;
+}
+
+.featuredGridItem2 .pSmall {
+    display: none;
+}
+
+.featuredGridItem .pSmall {
+    display: none;
+}
+
+.h3-none {
+    display: none;
 }
 
 .featureLists {
@@ -364,26 +297,18 @@ nav {
     margin-bottom: 10px;
 }
 
-.featureImages {
-    margin-bottom: 32px;
-}
-
-.featureButton {
-    display: flex;
-    align-items: center;
+.featureLink {
+    display: inline-flex;
     gap: 10px;
     background: #437EF7;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
-    border: 0;
-    padding: 12px 32px;
-}
-
-.featureButton a {
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     color: #FFF;
+    padding: 16px 24px;
+    margin-bottom: 64px;
 }
 
 /*-------------------- Footer --------------------*/
@@ -715,28 +640,34 @@ footer {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-    .featureContainer{
+
+    .featureContainer {
         display: flex;
         flex-direction: column;
     }
-    .featureContainer h3{
+
+    .featureContainer h3 {
         font-weight: 600;
         font-size: 32px;
         line-height: 42px;
         letter-spacing: -0.01em;
         text-align: start;
     }
-    .featureContainer p{
+
+    .featureContainer p {
         text-align: center;
     }
-    .featureImage{
+
+    .featureImage {
         display: none;
     }
-    .featureTabletImage{
+
+    .featureTabletImage {
         display: block;
         margin-bottom: 48px;
     }
-    .featureDesktopImage{
+
+    .featureDesktopImage {
         display: none;
     }
 
@@ -830,7 +761,7 @@ footer {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     /* ------------- */
     /* Masaüstü version*/
@@ -873,51 +804,63 @@ footer {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-    .featureContainer h2{
+
+    .featureContainer h2 {
         text-align: center;
     }
-    .featureContainer > .pSmall{
+
+    .featureContainer>.pSmall {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
         margin-bottom: 64px;
     }
-    .featureGrid{
+
+    .featureGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
         column-gap: 102px;
         padding-bottom: 64px;
     }
-    .featureGrid h3{
+
+    .featureGrid h3 {
         font-weight: 600;
         font-size: 32px;
         line-height: 42px;
         letter-spacing: -0.01em;
     }
-    .featuredGridItem2{
+
+    .featuredGridItem2 {
         grid-area: 1/1/2/2;
     }
-    .featureDesktopImage{
+
+    .featureDesktopImage {
         display: block;
     }
-    .featureGridItem1 .featureImage{
+
+    .featureGridItem1 .featureImage {
         display: none;
     }
-    .featuredGridItem2 .pSmall{
+
+    .featuredGridItem2 .pSmall {
         display: block;
         text-align: start;
     }
-    .featuredGridItem .pSmall{
+
+    .featuredGridItem .pSmall {
         display: block;
         text-align: start;
     }
-    .h3-none{
+
+    .h3-none {
         display: block;
     }
-    .featuredGridItem h3:first-child{
+
+    .featuredGridItem h3:first-child {
         display: none;
     }
+
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
