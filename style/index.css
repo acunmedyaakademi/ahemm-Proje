@@ -195,6 +195,21 @@ h5 {
 .featureImage{
     margin-bottom: 32px;
 }
+.featureTabletImage{
+    display: none;
+}
+.featureDesktopImage{
+    display: none;
+}
+.featuredGridItem2 .pSmall{
+    display: none;
+}
+.featuredGridItem .pSmall{
+    display: none;
+}
+.h3-none{
+    display: none;
+}
 .featureLists{
     margin-bottom: 32px;
 }
@@ -320,6 +335,16 @@ nav ul {
     .featureContainer p{
         text-align: center;
     }
+    .featureImage{
+        display: none;
+    }
+    .featureTabletImage{
+        display: block;
+        margin-bottom: 48px;
+    }
+    .featureDesktopImage{
+        display: none;
+    }
 
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
@@ -373,18 +398,48 @@ nav ul {
     .featureContainer h2{
         text-align: center;
     }
-    .featureContainer .pSmall{
-        
+    .featureContainer > .pSmall{
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 64px;
     }
     .featureGrid{
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+        column-gap: 102px;
+        padding-bottom: 64px;
+    }
+    .featureGrid h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.01em;
     }
     .featuredGridItem2{
         grid-area: 1/1/2/2;
     }
-
+    .featureDesktopImage{
+        display: block;
+    }
+    .featureGridItem1 .featureImage{
+        display: none;
+    }
+    .featuredGridItem2 .pSmall{
+        display: block;
+        text-align: start;
+    }
+    .featuredGridItem .pSmall{
+        display: block;
+        text-align: start;
+    }
+    .h3-none{
+        display: block;
+    }
+    .featuredGridItem h3:first-child{
+        display: none;
+    }
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
