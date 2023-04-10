@@ -290,9 +290,15 @@ footer {
 
 }
 
+.customersCommentsBottom {
+    margin-top: auto;
+}
+
 .customersCommentsBox {
     border-radius: 10px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 .customersCommentsTop, .viewButton {
