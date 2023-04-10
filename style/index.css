@@ -188,28 +188,35 @@ h5 {
     font-size: 15px;
     line-height: 22px;
 }
-.featuredLists{
+.featureContainer .pSmall{
     margin-bottom: 32px;
 }
-.featuredList{
+.featureImage{
+    margin-bottom: 32px;
+}
+.featureLists{
+    margin-bottom: 32px;
+}
+.featureList{
     display: flex;
     gap: 12px;
+    margin-bottom: 10px;
 }
-.featuredButton{
-    display: flex;
-    align-items: center;
+.mb-32{
+    margin-bottom: 32px;
+}
+.featureLink{
+    display: inline-flex;
     gap: 10px;
     background: #437EF7;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
-    border: 0;
-    padding: 12px 32px;
-}
-.featuredButton a{
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     color: #FFF;
+    padding: 16px 24px;
+    margin-bottom: 64px;
 }
 
 /*-------------------------------------------------------------*/
@@ -298,8 +305,19 @@ nav ul {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-    .heroImage{
-        margin: 0 185px;
+    .featureContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .featureContainer h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -0.01em;
+        text-align: start;
+    }
+    .featureContainer p{
+        text-align: center;
     }
 
     /*-------------------------------------------------------------*/
@@ -350,6 +368,20 @@ nav ul {
         font-size: 22px;
         line-height: 30px;
         letter-spacing: -0.01em;
+    }
+    .featureContainer h2{
+        text-align: center;
+    }
+    .featureContainer p{
+        text-align: center;
+    }
+    .featureGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .featuredGridItem2{
+        grid-area: 1/1/2/2;
     }
 
     /*-------------------------------------------------------------*/
