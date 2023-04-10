@@ -295,8 +295,11 @@ footer {
     padding: 16px;
 }
 
-.customersCommentsTop {
+.customersCommentsTop, .viewButton {
     align-items: center;
+}
+
+.customersCommentsTop {
     justify-content: space-between;
     margin-bottom: 16px;
 }
@@ -596,7 +599,7 @@ footer {
 
     .customersHeaderText {
         margin: auto;
-        width: 850px;
+        width: 70%;
         margin-bottom: 64px;
         gap: 16px;
     }
