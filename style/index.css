@@ -148,6 +148,59 @@ h5 {
     color: #5F6D7E;
 }
 
+
+/*-------------------------------------------------------------*/
+/*-------------------- Global Settings End --------------------*/
+/*-------------------------------------------------------------*/
+
+/* ------------- */
+/* Mobil version */
+/* ------------- */
+.detailContainer {
+    padding: 32px 0;
+}
+
+
+/*-------------------- Navbar --------------------*/
+
+nav ul {
+    display: none;
+}
+
+nav {
+    border-bottom: 1px solid #F8F9FB;
+    background-color: #EAEBF0;
+}
+
+.navbarContainer {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.checkbtn {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.links {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.navbarButtons {
+    display: none;
+}
+
+
+/*-------------------- Hero --------------------*/
+
 .hero {
     background: #F8F9FB;
 }
@@ -179,6 +232,7 @@ h5 {
     margin-bottom: 16px;
     padding: 12px 16px;
 }
+
 ::placeholder {
     font-family: 'Inter', sans-serif;
     font-weight: 400px;
@@ -186,10 +240,11 @@ h5 {
     line-height: 22px;
     letter-spacing: -0.1px;
     color: #919BA7;
-    
 
-  }
-.heroButton{
+
+}
+
+.heroButton {
     background: #437EF7;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
@@ -243,55 +298,6 @@ h5 {
     font-size: 15px;
     line-height: 22px;
     color: #FFF;
-}
-
-/*-------------------------------------------------------------*/
-/*-------------------- Global Settings End --------------------*/
-/*-------------------------------------------------------------*/
-
-/* ------------- */
-/* Mobil version */
-/* ------------- */
-.detailContainer {
-    padding: 32px 0;
-}
-
-
-/*-------------------- Navbar --------------------*/
-
-nav ul {
-    display: none;
-}
-
-nav {
-    border-bottom: 1px solid #F8F9FB;
-    background-color: #EAEBF0;
-}
-
-.navbarContainer {
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.checkbtn {
-    cursor: pointer;
-}
-
-#check {
-    display: none;
-}
-
-#check:checked~ul {
-    display: block;
-    position: absolute;
-    left: 0;
-}
-
-.navbarButtons {
-    display: none;
 }
 
 /*-------------------- Footer --------------------*/
@@ -429,37 +435,6 @@ footer {
     gap: 32px;
 }
 
-/*-------------------- Navbar --------------------*/
-
-nav ul {
-    display: none;
-}
-
-.navbarContainer {
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.checkbtn {
-    cursor: pointer;
-}
-
-#check {
-    display: none;
-}
-
-#check:checked~ul {
-    display: block;
-    position: absolute;
-    left: 0;
-}
-
-.navbarButtons {
-    display: none;
-}
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -505,21 +480,25 @@ nav ul {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-    .heroImage{
+
+    .heroImage {
         margin: 0 auto;
     }
-    .heroInput{
+
+    .heroInput {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         margin-bottom: 48px;
     }
-    .heroButton{
+
+    .heroButton {
         padding: 12px 18px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         margin-left: -4px;
     }
-    .heroContainer .pSmall{
+
+    .heroContainer .pSmall {
         display: none;
     }
 
@@ -641,29 +620,35 @@ nav ul {
         line-height: 30px;
         letter-spacing: -0.01em;
     }
-   .heroGrid{
+
+    .heroGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
         padding-bottom: 44px;
     }
-   .heroGridItem2{
+
+    .heroGridItem2 {
         grid-area: 1/1/2/2;
-   }
-   .heroInput{
+    }
+
+    .heroInput {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
-   }
-    .heroButton{
+    }
+
+    .heroButton {
         padding: 12px 18px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         margin-left: -4px;
     }
-    .heroContainer .pSmall{
+
+    .heroContainer .pSmall {
         display: none;
-    }   
+    }
+
     /*-------------------------------------------------------------*/
     /*-------------------- Global Settings End --------------------*/
     /*-------------------------------------------------------------*/
@@ -683,17 +668,15 @@ nav ul {
 
     }
 
-    .detail .hamburger {
+    /*-------------------- Navbar Masaüstü --------------------*/
+
+    .checkbtn {
         display: none;
     }
 
 
-
-    /*-------------------- Navbar Masaüstü --------------------*/
-
-
     .navbarContainer {
-        gap: 69px;
+        gap: 70px;
         font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 15px;
