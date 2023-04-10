@@ -358,6 +358,7 @@ footer {
     font-weight: 500;
 }
 
+<<<<<<< HEAD
 /*-------------------- Subscribe --------------------*/
 
 .subscribe {
@@ -434,7 +435,134 @@ footer {
     display: flex;
     gap: 32px;
 }
+=======
+/*-------------------- Customers --------------------*/
+>>>>>>> customers
 
+.customers {
+    background-color: #2B63D9;
+}
+
+.customersElements {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.customersHeaderText, .customerText, .customersCommentsTop, .customersProfile, .customersCommentsBottom, .instagramLogo, .viewButton  {
+    display: flex;
+}
+.customersHeaderText {
+    flex-direction:column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.customersHeaderText h2, .customersText {
+    text-align: center;
+}
+.customersHeaderText h2, .paragraphName, .customersCommentsMiddle, .customersCommentsBottom p, .viewButton {
+    color: #FFFFFF;
+}
+
+.customersHeaderText h2 {
+    margin-bottom: 0;
+}
+
+.customersText {
+    color: #B1CCFB;
+}
+
+.customersComments {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.customersCommentsBox, .customersCommentsBottom, .viewButton {
+    background-color:#3971E7;
+
+}
+
+.customersCommentsBottom {
+    margin-top: auto;
+}
+
+.customersCommentsBox {
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customersCommentsTop, .viewButton {
+    align-items: center;
+}
+
+.customersCommentsTop {
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.avatarPhoto {
+    margin-right: 10px;
+}
+
+.paragraphName, .paragraphTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.01px;
+}
+
+.paragraphName {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.paragraphTitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: #B1CCFB;
+}
+
+.instagramLogo {
+    width: 24px;
+    height: 24px;
+}
+
+.customersCommentsMiddle {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.customersCommentsBottom p, .viewButton {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.customersCommentsBottom p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+    margin-right: 6px;
+}
+
+.customersCommentsBottom img {
+    width: 20px;
+    height: 20px;
+}
+
+.viewButton {
+    margin: auto;
+    padding: 0;
+    width: 128px;
+    height: 46px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 22px;
+    border: none;
+}
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -555,11 +683,7 @@ footer {
         justify-content: space-between;
     }
 
-    .footerMenu ul {
-        gap: 24px;
-    }
-
-    .footerIcons {
+    .footerMenu ul, .footerIcons {
         gap: 24px;
     }
 
@@ -572,8 +696,22 @@ footer {
         order: 1;
     }
 
+    /*-------------------- Customers Tablet--------------------*/
 
+    .customersElements {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }   
 
+    .customersComments {    
+        gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .customersHeader {
+        font-size: 32px;
+        line-height: 40px;
+    }
 
 }
 
@@ -773,4 +911,28 @@ footer {
     .footerSecondRight {
         gap: 48px;
     }
+
+     /*-------------------- Customers Masaüstü --------------------*/
+
+    .customersElements {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .customersComments {    
+        gap: 32px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 64px;
+    }
+
+    .customersHeaderText {
+        margin: auto;
+        width: 70%;
+        margin-bottom: 64px;
+        gap: 16px;
+    }
+    .customersText {
+        margin-bottom: 0;
+    }
+
 }
