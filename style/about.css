@@ -197,6 +197,80 @@ nav {
 
 
 
+/*-------------------- Footer --------------------*/
+
+footer {
+    font-family: 'Inter', sans-serif;
+    padding: 32px 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    order: 1;
+}
+
+.footerLogo img {
+    margin-bottom: 22px;
+}
+
+.footerMenus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px 0;
+    order: 3;
+}
+
+.footerMenu {
+    width: 146px;
+}
+
+.footerMenu h6 {
+    color: black;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footerMenu ul {
+    color: #5F6D7E;
+}
+
+.footerMenu li {
+    margin-bottom: 12px;
+}
+
+.footerIcons {
+    display: flex;
+    justify-content: space-around;
+    order: 2;
+}
+
+.footerShape {
+    order: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.footerCopy {
+    order: 5;
+}
+
+.blueShape {
+    width: 48px;
+    height: 48px;
+    background-color: #f5faff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.footerCopy p {
+    text-align: center;
+}
 
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
@@ -334,5 +408,46 @@ nav {
         padding: 12px 18px;
         border-radius: 6px;
         color: #FFFFFF;
+    }
+
+    /*-------------------- Footer Masaüstü --------------------*/
+
+    .footerContainer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .footerShape {
+        grid-area: 4 / 1 / 5 / 6;
+    }
+
+    .footerCopy {
+        grid-area: 5 / 1 / 6 / 6;
+    }
+
+    .footerLogo {
+        grid-area: 1 / 1 / 3 / 2;
+    }
+
+    .footerIcons {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .footerMenus {
+        grid-area: 1 / 2 / 4 / 6;
+    }
+
+    .footerIcons {
+        gap: 24px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footerIcons img {
+        width: 24px;
+        aspect-ratio: 1;
     }
 }
