@@ -502,6 +502,77 @@ footer {
     flex-direction: column;
     gap: 40px;
 }
+/*-------------------- Feature --------------------*/
+
+.featureContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.featureTextArea h3 {
+    line-height: 36px;
+    font-size: 28px;
+    color: #272D37;
+}
+
+.featureTextArea {
+    margin-bottom: 32px;
+}
+
+.approvalText {
+    display: flex;
+    flex-direction: row;
+}
+
+.approvalText img {
+    margin-right: 8px;
+}
+
+.startButton {
+    border-radius: 6px;
+    width: 133px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 22px;
+    border: none;
+    background-color: #437EF7;
+    margin-bottom: 32px;
+}
+
+.startButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 18px;
+}
+
+.startButton a {
+    color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    gap: 6px;
+}
+
+.startButton img {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+}
+
+.featureTextMiddle {
+    display: none;
+}
+
+.setupDesktop {
+    display: none;
+}
+
+.setupPhoto {
+    display: none;
+}
+
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -617,6 +688,29 @@ footer {
         gap: 40px 100px;
     }
 
+    /*-------------------- Feature Tablet--------------------*/
+
+    .featureTextArea h3 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .setupPhoto {
+        width: 704px;
+        height: 460px;
+    }
+
+    .setupDesktop {
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupPhoto {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -811,6 +905,39 @@ footer {
     .faqTableItemRight p {
         margin-right: 32px;
         font-weight: 500;
+    }
+    
+     /*-------------------- Feature Masaüstü --------------------*/
+
+    .featureTopArea {
+        margin: auto;
+    }
+
+    .featureContainer {
+        display: flex;
+        gap: 124px;
+    }
+
+    .featureTextMiddle {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .featureContainer {
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .setupPhoto {
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupDesktop {
+        display: flex;
     }
 
     /*-------------------- Team Masaüstü--------------------*/
