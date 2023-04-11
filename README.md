@@ -6,7 +6,7 @@
 
 | Index.html | About.html |
 | ---------- | ---------- |
-| Hero       |            |
+| Hero       | Team       |
 | Feature    |            |
 | Blog       |            |
 
@@ -15,7 +15,7 @@
 | Index.html  | About.html |
 | ----------- | ---------- |
 | Customers   | FAQ        |
-| Partnership |            |
+| Partnership | Feature    |
 
 > Elif Cansu Okuyan
 
@@ -30,5 +30,6 @@
 | Index.html | About.html |
 | ---------- | ---------- |
 | Navbar     | Footer     |
-| Footer     |            |
-| Subscribe  |            |
+| Footer     | Hero       |
+| Subscribe  | Service    |
+|            | Cta        |
