@@ -568,8 +568,21 @@ footer {
 .blogContainer .pSmall{
     margin-bottom: 16px;
 }
-
-
+.tabletHeading{
+    display: none;
+}
+.tabletText{
+    display: none;
+}
+.desktopText{
+    display: none;
+}
+.desktopP{
+    display: none;
+}
+.blogDate{
+    display: none;
+}
 /*-------------------- Subscribe --------------------*/
 
 .subscribe {
@@ -778,6 +791,28 @@ footer {
         width: 332px;
         height: 140px;
     }
+    .tabletHeading{
+        display: block;
+    }
+    .tabletText{
+        display: block;
+    }
+    .mobileHeading{
+        display: none;
+    }
+    .pNone{
+        display: none;
+    }
+    .desktopP{
+        display: none;
+    }
+    .noneDate{
+        display: none;
+    }
+    .blogDate{
+        display: block;
+    }
+
     /*-------------------- Subscribe --------------------*/
 
 
@@ -1084,7 +1119,27 @@ footer {
         width: 800px;
         margin-bottom: 64px;
     }
-
+    .tabletHeading{
+        display: none;
+    }
+    .tabletText{
+        display: none;
+    }
+    .desktopText{
+        display: block;
+    }
+    .mobileP{
+        display: none;
+    }
+    .desktopP{
+        display: block;
+    }
+    .noneDate{
+        display: none;
+    }
+    .blogDate{
+        display: block;
+    }
     /*-------------------- Subscribe --------------------*/
     .subscribeContainer {
         display: flex;
