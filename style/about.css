@@ -429,6 +429,14 @@ footer {
     display: none;
 }
 
+.setupDesktop {
+    display: none;
+}
+
+.setupPhoto {
+    display: none;
+}
+
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -499,8 +507,20 @@ footer {
         font-size: 32px;
         line-height: 42px;
     }
-    
-    .featureSetup {
+    .setupPhoto {
+        width: 704px;
+        height: 460px;
+    }
+
+    .setupDesktop {
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupPhoto {
         display: flex;
     }
 }
@@ -669,15 +689,14 @@ footer {
     
      /*-------------------- Feature Masaüstü --------------------*/
 
-    .featureContainer {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 124px;
-    }
-
     .featureTopArea {
         margin: auto;
-    }   
+    }
+
+    .featureContainer {
+        display: flex;
+        gap: 124px;
+    }
 
     .featureTextMiddle {
         display: flex;
@@ -690,7 +709,15 @@ footer {
     }
 
     .setupPhoto {
-        max-width: 95%;
+        display: none;
+    }
+
+    .setupDesktopMobile {
+        display: none;
+    }
+
+    .setupDesktop {
+        display: flex;
     }
 
 }
