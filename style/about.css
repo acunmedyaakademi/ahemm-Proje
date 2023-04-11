@@ -195,6 +195,7 @@ nav {
     display: none;
 }
 
+/*-------------------- Hero --------------------*/
 
 /*-------------------- Hero --------------------*/
 
@@ -297,6 +298,74 @@ footer {
     text-align: center;
 }
 
+/*-------------------- Faq --------------------*/
+
+.faqContentText h2, .faqContentText {
+    text-align: center;
+}
+
+.faqContentText {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.faqTableItemLeftArea {
+    display:flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.faqTableItemHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    border-bottom: 1px solid #EAEBF0;
+}
+
+.faqTableItemTop {
+    font-weight: 500;
+    line-height: 28px;
+    color:#272D37;
+}
+
+.faqTableItemRightArea {
+    display: flex;
+    align-items: center;
+}
+
+.faqTableItemRightArea p {
+    display: flex;
+    align-items: center;
+    background: #F5FAFF;
+    color: #437EF7; 
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.faqTableItem {
+    height: 80px;
+    display: flex;
+    color: #272D37;
+    font-weight: 500;
+    padding: 0 32px;
+    align-items: center;
+    border-bottom: 1px solid #EAEBF0;
+    border-collapse: collapse;
+}
+
+.faqTable {
+    flex-direction: column;
+    border: 1px solid #EAEBF0;
+    border-radius: 5px;
+}
+
+.faqTableItemRight {
+    display: none;
+}
+
 
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
@@ -349,6 +418,17 @@ footer {
     .heroContainer {
         padding: 48px 0 80px 0;
     }
+    /*-------------------- Faq Tablet--------------------*/
+
+    .faqContentText h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .faqTableItemRight {
+        display: none;
+    }
+
 }
 
 
@@ -488,4 +568,30 @@ footer {
         width: 24px;
         aspect-ratio: 1;
     }
+    /*-------------------- Faq Masaüstü --------------------*/
+
+    .faqContentText  {
+        width: 800px;
+    }
+    
+    .faqTableItemRight {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .faqTableItemRight img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .faqTableItem {
+        justify-content: space-between;
+    }
+
+    .faqTableItemRight p {
+        margin-right: 32px;
+        font-weight: 500;
+    }
+
 }
