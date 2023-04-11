@@ -415,7 +415,29 @@ footer {
     display: none;
 }
 
+/*-------------------- Team --------------------*/
 
+.dFlex{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.teamContainer h2{
+    text-align: center;
+}
+.teamP{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.teamContainer img{
+    margin-bottom: 15.67px;
+}
+.teamContainer h3{
+    margin-bottom: 0;
+}
+.job{
+    margin-bottom: 13px;
+}
 @media screen and (max-width:1024px) and (min-width: 768px) {
 
     /* ------------- */
@@ -499,8 +521,14 @@ footer {
         display: none;
     }
 
+/*-------------------- Team Tablet--------------------*/
+.dGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
 }
 
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -696,4 +724,16 @@ footer {
         font-weight: 500;
     }
 
+    /*-------------------- Team Masaüstü--------------------*/
+    .dGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 32px;
+    }
+    .teamP{
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 64px;
+    }
 }
