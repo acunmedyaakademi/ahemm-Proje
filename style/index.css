@@ -788,14 +788,9 @@ footer {
         display: flex;
         gap: 24px;
     }
-    .resim1{
+    .blogImages2,.blogImages3,.blogImages4{
         width: 188px;
         height: 166px;
-    }
-    .blogImages2,.blogImages3,.blogImages4{
-    width: 100%;
-        height: 100%;
-        object-fit: fill;
     }
     .blogContent{
         flex-basis: 70%;
