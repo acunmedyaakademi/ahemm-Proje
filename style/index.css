@@ -153,8 +153,8 @@ h5 {
     color: #5F6D7E;
 }
 
-.mb-32 {
-    margin-bottom: 32px;
+.mt-32 {
+    margin-top: 32px;
 }
 
 
@@ -555,6 +555,7 @@ footer {
 }
 .blogContainer h2{
     text-align: center;
+    margin-top: 32px;
 }
 .blogContainer img{
     margin-bottom: 24px;
@@ -812,7 +813,9 @@ footer {
     .blogDate{
         display: block;
     }
-
+    .blogContainer h2{
+        margin-top: 48px;
+    }
     /*-------------------- Subscribe --------------------*/
 
 
@@ -1139,6 +1142,9 @@ footer {
     }
     .blogDate{
         display: block;
+    }
+    .blogContainer h2{
+        margin-top: 64px;
     }
     /*-------------------- Subscribe --------------------*/
     .subscribeContainer {
