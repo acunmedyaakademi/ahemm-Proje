@@ -758,7 +758,7 @@ footer {
         display: none;
     }
 
-    /*-------------------- Blog --------------------*/
+    /*-------------------- Blog Tablet--------------------*/
     .blogImages1{
         width: 704px;
         height: 163px;
@@ -1038,6 +1038,31 @@ footer {
 
     .heroContainer .pSmall {
         display: none;
+    }
+    /*-------------------- Blog Desktop--------------------*/
+
+    .blogGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+    .blogImages1{
+        width: 588px;
+        height: 210px;
+    }
+    .blogImages2, .blogImages3, .blogImages4{
+        width: 188px;
+        height: 118px;
+    }
+    .tabletH3{
+        display: block;
+    }
+    .h3None{
+        display: none;
+    }
+    .dFlex{
+        display: flex;
+        gap: 24px;
     }
 
     /*-------------------- Subscribe --------------------*/
