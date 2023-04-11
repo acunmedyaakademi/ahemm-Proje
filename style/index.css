@@ -555,6 +555,7 @@ footer {
 }
 .blogContainer h2{
     text-align: center;
+    margin-top: 32px;
 }
 .blogContainer img{
     margin-bottom: 24px;
@@ -812,7 +813,9 @@ footer {
     .blogDate{
         display: block;
     }
-
+    .blogContainer h2{
+        margin-top: 48px;
+    }
     /*-------------------- Subscribe --------------------*/
 
 
@@ -1139,6 +1142,9 @@ footer {
     }
     .blogDate{
         display: block;
+    }
+    .blogContainer h2{
+        margin-top: 64px;
     }
     /*-------------------- Subscribe --------------------*/
     .subscribeContainer {
