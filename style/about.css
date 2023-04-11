@@ -348,6 +348,10 @@ footer {
 
 /*-------------------- Faq --------------------*/
 
+.faqContainer {
+    margin-bottom: 40px
+}
+
 .faqContentText h2,
 .faqContentText {
     text-align: center;
