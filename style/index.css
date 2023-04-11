@@ -1046,13 +1046,24 @@ footer {
         grid-template-columns: 1fr 1fr;
         column-gap: 40px;
     }
+    .blogGrid h3{
+        margin-bottom: 16px;
+    }
     .blogImages1{
         width: 588px;
         height: 210px;
     }
-    .blogImages2, .blogImages3, .blogImages4{
+    .blogImages2{
         width: 188px;
-        height: 118px;
+        height: 128px;
+    }
+    .blogImages3{
+        width: 170px;
+        height: 128px;
+    }
+    .blogImages4{
+        width: 194px;
+        height: 128px;
     }
     .tabletH3{
         display: block;
@@ -1060,9 +1071,18 @@ footer {
     .h3None{
         display: none;
     }
+    .pNone{
+        display: none;
+    }
     .dFlex{
         display: flex;
         gap: 24px;
+    }
+    .blogContainer > .pSmall {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        margin-bottom: 64px;
     }
 
     /*-------------------- Subscribe --------------------*/
