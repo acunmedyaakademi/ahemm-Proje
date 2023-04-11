@@ -788,9 +788,17 @@ footer {
         display: flex;
         gap: 24px;
     }
+    .resim1{
+        width: 188px;
+        height: 166px;
+    }
     .blogImages2,.blogImages3,.blogImages4{
-        width: 332px;
-        height: 140px;
+    width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .blogContent{
+        flex-basis: 70%;
     }
     .tabletHeading{
         display: block;
@@ -1093,15 +1101,18 @@ footer {
     }
     .blogImages2{
         width: 188px;
-        height: 128px;
+        height: 118px;
+        object-fit: fill;
     }
     .blogImages3{
-        width: 170px;
-        height: 128px;
+        width: 188px;
+        height: 118px;
+        object-fit: fill;
     }
     .blogImages4{
-        width: 194px;
-        height: 128px;
+        width: 188px;
+        height: 118px;
+        object-fit: fill;
     }
     .tabletH3{
         display: block;
@@ -1145,6 +1156,9 @@ footer {
     }
     .blogContainer h2{
         margin-top: 64px;
+    }
+    .blogContent{
+        flex-basis: 70%;
     }
     /*-------------------- Subscribe --------------------*/
     .subscribeContainer {
